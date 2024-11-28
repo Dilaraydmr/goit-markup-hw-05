@@ -565,4 +565,12 @@ white-space: nowrap;
   display: flex;
   gap: 24px;
  }
-
+.send-icon{
+  margin-left: 16px;
+}
+.footer-text-sb {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
