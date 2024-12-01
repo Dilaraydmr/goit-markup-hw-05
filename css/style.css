@@ -628,6 +628,9 @@ body {
 .modal-form-input:focus {
   border-color: #4d5ae5;
 }
+.modal-form-input:focus + .modal-window-button-close {
+  fill: #4d5ae5;
+}
 .modal-window-button-close {
   position: absolute;
   left: 16px;
@@ -652,7 +655,7 @@ body {
 .modal-form-textarea {
   margin-bottom: 16px;
 }
-.modal-form-textarea-input:hover {
+.modal-form-textarea-input:focus {
   border-color: #4d5ae5;
 }
 .modal-window-span {
@@ -693,7 +696,7 @@ body {
 .modal-window-checkbox-div {
   margin-bottom: 24px;
 }
-.modal-window-checkbox-div:checked
+.modal-window-checkbox-input:checked
   + .modal-form-privacy-label
   .modal-window-span {
   background-color: #404bbf;
