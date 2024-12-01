@@ -588,6 +588,7 @@ body {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 24px;
 }
+
 .modal-close-window:hover {
   background-color: #404bbf;
   border: none;
@@ -596,9 +597,16 @@ body {
   background-color: #404bbf;
   border: none;
 }
+.modal-close-window:hover .modal-window-button-close {
+  fill: #ffffff;
+}
+.modal-close-window:focus .modal-window-button-close {
+  fill: #ffffff;
+}
 .modal-window-button-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   top: 50%;
+  fill: #ffffff;
 }
 .modal-window-text {
   font-weight: 500;
@@ -710,5 +718,5 @@ body {
   .modal-window-span {
   background-color: #404bbf;
   border: none;
-  fill: #f4f4f4;
+  fill: #f4f4fd;
 }
