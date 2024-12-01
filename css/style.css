@@ -627,6 +627,12 @@ body {
 .modal-form-input:focus {
   border-color: #4d5ae5;
 }
+.modal-window-button-close {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .modal-form-textarea-input {
   width: 100%;
   height: 120px;
